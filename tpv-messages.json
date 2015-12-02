@@ -1,0 +1,286 @@
+{
+    "0000" : {
+        "msg" : "TRANSACCIÓN APROBADA",
+        "description" : "Transacción autorizada por el banco emisor de la tarjeta"
+    },
+    "0001" : {
+        "msg" : "TRANSACCIÓN APROBADA PREVIA IDENTIFICACION DE TITULAR",
+        "description": "Código exclusivo para transacciones Verified by Visa o MasterCard SecureCode. La transacción ha sido autorizada y, además, el banco emisor nos informa que ha autenticado correctamente la identidad del titular de la tarjeta."
+    },
+    "0002 - 0099" : {
+        "msg" : "TRANSACCIÓN APROBADA",
+        "description": "Transacción autorizada por el banco emisor."
+    },
+    "0101" : {
+        "msg" : "TARJETA CADUCADA",
+        "description": "Transacción denegada porque la fecha de caducidad de la tarjeta que se ha informado en el pago, es anterior a la actualmente vigente."
+    },
+    "0102" : {
+        "msg" : "TARJETA BLOQUEDA TRANSITORIAMENTE O BAJO SOSPECHA DE FRAUDE",
+        "description": "Tarjeta bloqueada transitoriamente por el banco emisor o bajo sospecha de fraude."
+    },
+    "0104" : {
+        "msg" : "OPERACIÓN NO PERMITIDA",
+        "description": "Operación no permitida para ese tipo de tarjeta."
+    },
+    "0106" : {
+        "msg" : "NUM. INTENTOS EXCEDIDO",
+        "description": "Excedido el número de intentos con PIN erróneo."
+    },
+    "0107" : {
+        "msg" : "CONTACTAR CON EL EMISOR",
+        "description": "El banco emisor no permite una autorización automática. Es necesario contactar telefónicamente con su centro autorizador para obtener una aprobación manual."
+    },
+    "0109" : {
+        "msg" : "IDENTIFICACIÓN INVALIDA DEL COMERCIO O TERMINAL",
+        "description": "Denegada porque el comercio no está correctamente dado de alta en los sistemas internacionales de tarjetas."
+    },
+    "0110" : {
+        "msg" : "IMPORTE INVALIDO",
+        "description": "El importe de la transacción es inusual para el tipo de comercio que solicita la autorización de pago."
+    },
+    "0114" : {
+        "msg" : "TARJETA NO SOPORTA EL TIPO DE OPERACIÓN SOLICITADO",
+        "description": "Operación no permitida para ese tipo de tarjeta."
+    },
+    "0116" : {
+        "msg" : "DISPONIBLE INSUFICIENTE",
+        "description": "El titular de la tarjeta no dispone de suficiente crédito para atender el pago."
+    },
+    "0118" : {
+        "msg" : "TARJETA NO REGISTRADA",
+        "description": "Tarjeta inexistente o no dada de alta por banco emisor."
+    },
+    "0119" : {
+        "msg" : "TRANSACCIÓN DENEGADA",
+        "description": "Transacción denegada. Contactar con el banco."
+    },
+    "0125" : {
+        "msg" : "TARJETA NO EFECTIVA",
+        "description": "Tarjeta inexistente o no dada de alta por banco emisor."
+    },
+    "0167" : {
+        "msg" : "CONTACTAR CON EL EMISOR: SOSPECHA DE FRAUDE",
+        "description": "Debido a una sospecha de que la transacción es fraudulenta el banco emisor no permite una autorización automática. Es necesario contactar telefónicamente con su centro autorizador para obtener una aprobación manual."
+    },
+    "0180" : {
+        "msg" : "TARJETA AJENA AL SERVICIO",
+        "description": "Operación no permitida para ese tipo de tarjeta."
+    },
+    "0181 - 0182" : {
+        "msg" : "TARJETA CON RESTRICCIONES DE DEBITO O CREDITO",
+        "description": "Tarjeta bloqueada transitoriamente por el banco emisor."
+    },
+    "0184" : {
+        "msg" : "ERROR EN AUTENTICACION",
+        "description": "Código exclusivo para transacciones Verified by Visa o MasterCard SecureCode. La transacción ha sido denegada porque el banco emisor no pudo autenticar  ebidamente al titular de la tarjeta."
+    },
+    "0190" : {
+        "msg" : "DENEGACION SIN ESPECIFICAR EL MOTIVO",
+        "description": "Transacción denegada por el banco emisor pero sin que este dé detalles acerca del motivo."
+    },
+    "0191" : {
+        "msg" : "FECHA DE CADUCIDAD ERRONEA",
+        "description": "Transacción denegada porque la fecha de caducidad de la tarjeta que se ha informado en el pago, no se corresponde con la actualmente vigente."
+    },
+    "0201" : {
+        "msg" : "TARJETA CADUCADA",
+        "description": "Transacción denegada porque la fecha de caducidad de la tarjeta que se ha informado en el pago, es anterior a la actualmente vigente. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude."
+    },
+    "0202" : {
+        "msg" : "TARJETA BLOQUEDA TRANSITORIAMENTE O BAJO SOSPECHA DE FRAUDE",
+        "description": "Tarjeta bloqueada transitoriamente por el banco emisor o bajo sospecha de fraude. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude."
+    },
+    "0204" : {
+        "msg" : "OPERACION NO PERMITIDA",
+        "description": "Operación no permitida para ese tipo de tarjeta. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude."
+    },
+    "0207" : {
+        "msg" : "CONTACTAR CON EL EMISOR",
+        "description": "El banco emisor no permite una autorización automática. Es necesario contactar telefónicamente con su centro autorizador para obtener una aprobación manual. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude."
+    },
+    "0208 - 209" : {
+        "msg" : "TARJETA PERDIDA O ROBADA",
+        "description": "Tarjeta bloqueada por el banco emisor debido a que el titular le ha manifestado que le ha sido robada o perdida. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude."
+    },
+    "0290" : {
+        "msg" : "DENEGACION SIN ESPECIFICAR EL MOTIVO",
+        "description": "Transacción denegada por el banco emisor pero sin que este dé detalles acerca del motivo. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude."
+    },
+    "0400" : {
+        "msg" : "ANULACION ACEPTADA",
+        "description": "Transacción de anulación o retrocesión parcial aceptada por el banco emisor."
+    },
+    "0480" : {
+        "msg" : "NO SE ENCUENTRA LA OPERACIÓN ORIGINAL O TIME-OUT EXCEDIDO",
+        "description": "La anulación o retrocesión parcial no ha sido aceptada porque no se ha localizado la operación original, o bien, porque el banco emisor no ha dado respuesta dentro del time-out predefinido."
+    },
+    "0481" : {
+        "msg" : "ANULACION ACEPTADA",
+        "description": "Transacción de anulación o retrocesión parcial aceptada por el banco emisor. No obstante, la respuesta del banco emisor se ha recibido con mucha demora, fuera del time-out predefinido."
+    },
+    "0500" : {
+        "msg" : "CONCILIACION ACEPTADA",
+        "description": "La transacción de conciliación ha sido aceptada por el banco emisor."
+    },
+    "0501 - 0503" : {
+        "msg" : "NO ENCONTRADA LA OPERACION ORIGINAL O TIME-OUT EXCEDIDO",
+        "description": "La conciliación no ha sido aceptada porque no se ha localizado la operación original, o bien, porque el banco emisor no ha dado respuesta dentro del timeout "
+    },
+    "09929" : {
+        "msg" : "ANULACIÓN DE PREAUTORITZACIÓN REALIZADA POR EL COMERCIO",
+        "description": "La anulación de la preautorización ha sido aceptada"
+    },
+    "0904" : {
+        "msg" : "COMERCIO NO REGISTRADO EN EL FUC",
+        "description": "Hay un problema en la configuración del código de comercio. Contactar con Banco Sabadell para solucionarlo."
+    },
+    "0909" : {
+        "msg" : "ERROR DE SISTEMA",
+        "description": "Error en la estabilidad de la plataforma de pagos de Banco Sabadell o en la de los sistemas de intercambio de Visa o MasterCard."
+    },
+    "0912" : {
+        "msg" : "EMISOR NO DISPONIBLE",
+        "description": "El centro autorizador del banco emisor no está operativo en estos momentos."
+    },
+    "0913" : {
+        "msg" : "TRANSMISION DUPLICADA",
+        "description": "Se ha procesado recientemente una transacción con el mismo número de pedido (Ds_Merchant_Order)."
+    },
+    "0916" : {
+        "msg" : "IMPORTE DEMASIADO PEQUEÑO",
+        "description": "No es posible operar con este importe."
+    },
+    "0928" : {
+        "msg" : "TIME-OUT EXCEDIDO",
+        "description": "El banco emisor no da respuesta a la petición de autorización dentro del time-out predefinido."
+    },
+    "0940" : {
+
+        "msg" : "TRANSACCIÓN ANULADA ANTERIORMENTE",
+        "description": "Se está solicitando una anulación o retrocesión parcial de una transacción que con anterioridad ya fue anulada."
+    },
+    "0941" : {
+
+        "msg" : "TRANSACCIÓN DE AUTORIZACION YA ANULADA POR UNA ANULACION ANTERIOR",
+        "description": "Se está solicitando la confirmación de una transacción con un número de pedido (Ds_Merchant_Order) que se corresponde a una operación anulada anteriormente."
+    },
+    "0942" : {
+        "msg" : "TRANSACCIÓN DE AUTORIZACION ORIGINAL DENEGADA",
+        "description": "Se está solicitando la confirmación de una transacción con un número de pedido (Ds_Merchant_Order) que se corresponde a una operación denegada."
+    },
+    "0943" : {
+        "msg" : "DATOS DE LA TRANSACCIÓN ORIGINAL DISTINTOS",
+        "description": "Se está solicitando una confirmación errónea."
+    },
+    "0944" : {
+        "msg" : "SESION ERRONEA",
+        "description": "Se está solicitando la apertura de una tercera sesión. En el proceso de pago solo está permitido tener abiertas dos sesiones (la actual y la anterior pendiente de cierre)."
+    },
+    "0945" : {
+        "msg" : "TRANSMISION DUPLICADA",
+        "description": "Se ha procesado recientemente una transacción con el mismo número de pedido (Ds_Merchant_Order)."
+    },
+    "0946" : {
+        "msg" : "OPERACION A ANULAR EN PROCESO",
+        "description": "Se ha solicitada la anulación o retrocesión parcial de una transacción original que todavía está en proceso y pendiente de respuesta."
+    },
+    "0947" : {
+        "msg" : "TRANSMISION DUPLICADA EN PROCESO",
+        "description": "Se está intentando procesar una transacción con el mismo número de pedido (Ds_Merchant_Order) de otra que todavía está pendiente de respuesta."
+    },
+    "0949" : {
+        "msg" : "TERMINAL INOPERATIVO",
+        "description": "El número de comercio (Ds_Merchant_MerchantCode) o el de terminal (Ds_Merchant_Terminal) no están dados de alta o no son operativos."
+    },
+    "0950" : {
+        "msg" : "DEVOLUCION NO PERMITIDA",
+        "description": "La devolución no está permitida por regulación."
+    },
+
+    "0965" : {
+        "msg" : "VIOLACIÓN NORMATIVA",
+        "description": "Violación de la Normativa de Visa o Mastercard"
+    },
+
+    "9064" : {
+        "msg" : "LONGITUD TARJETA INCORRECTA",
+        "description": "nº posicion,es de la tarjeta incorrecta"
+    },
+    "9078" : {
+        "msg" : "NO EXISTE METODO DE PAGO",
+        "description": "Los tipos de pago definidos para el terminal (Ds_Merchant_Terminal) por el que se procesa la transacción, no permiten pagar con el tipo de tarjeta informado."
+    },
+    "9093" : {
+        "msg" : "TARJETA NO EXISTE",
+        "description": "Tarjeta inexistente."
+    },
+    "9094" : {
+        "msg" : "DENEGACION DE LOS EMISORES",
+        "description": "Operación denegada por parte de los emisoras internacionales "
+    },
+    "9104" : {
+        "msg" : "OPER. SEGURA NO ES POSIBLE",
+        "description": "Comercio con autenticación obligatoria y titular sin clave de compra segura"
+    },
+    "9142" : {
+        "msg" : "TIEMPO LÍMITE DE PAGO SUPERADO",
+        "description": "El titular de la tarjeta no se ha autenticado durante el tiempo máximo permitido."
+    },
+    "9218" : {
+        "msg" : "NO SE PUEDEN HACER OPERACIONES SEGURAS",
+        "description": "La entrada Operaciones no permite operaciones seguras"
+    },
+    "9256" : {
+        "msg" : "PREAUTORITZACIONES NO HABILITADAS",
+        "description": "La tarjeta no puede hacer Preautorizaciones  "
+    },
+    "9261" : {
+        "msg" : "LÍMITE OPERATIVO EXCEDIDO",
+        "description": "La transacción excede el límite operativo establecido por Banco Sabadell"
+    },
+    "9283" : {
+        "msg" : "SUPERA ALERTAS BLOQUANTES",
+        "description": "La operación excede las alertas bloqueantes, no se puede procesar"
+    },
+    "9281" : {
+        "msg" : "SUPERA ALERTAS BLOQUEANTES",
+        "description": "La operación excede las alertas bloqueantes, no se puede procesar"
+    },
+    "9912" : {
+        "msg" : "EMISOR NO DISPONIBLE",
+        "description": "El centro autorizador del banco emisor no está operativo en estos momentos."
+    },
+    "9913" : {
+        "msg" : "ERROR EN CONFIRMACION",
+        "description": "Error en la confirmación que el comercio envía al TPV Virtual (solo aplicable en la opción de sincronización SOAP)"
+    },
+    "9914" : {
+        "msg" : "CONFIRMACION KO",
+        "description": "Confirmación KO del comercio (solo aplicable en la opción de sincronización SOAP)"
+    },
+    "9915" : {
+        "msg" : "PAGO CANCELADO",
+        "description": "El usuario ha cancelado el pago"
+    },
+    "9928" : {
+        "msg" : "AUTORIZACIÓN EN DIFERIDO ANULADA",
+        "description": "Anulación de autorización en diferido realizada por el SIS (proceso batch)"
+    },
+    "9929": {
+        "msg" : "AUTORIZACIÓN EN DIFERIDO ANULADA",
+        "description": "Anulación de autorización en diferido realizada por el comercio"
+    },
+    "9997" : {
+        "msg" : "TRANSACCIÓN SIMULTÁNEA",
+        "description": "En el TPV Virtual se está procesando de forma simultánea otra operación con la misma tarjeta."
+    },
+    "9998" : {
+        "msg" : "ESTADO OPERACIÓN: SOLICITADA",
+        "description": "Estado temporal mientras la operación se procesa. Cuando la operación termine este código cambiará."
+    },
+    "9999" : {
+        "msg" : "ESTADO OPERACIÓN: AUTENTICANDO",
+        "description": "Estado temporal mientras el TPV realiza la autenticación del titular. Una vez finalizado este proceso el TPV asignará un nuevo código a la operación."
+    }
+}
